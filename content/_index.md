@@ -37,11 +37,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        I am a first-year PhD student in Computer Science at the University of Southern California. My research focuses on computational imaging, privacy-preserving techniques, medical imaging, and deep learning. I am driven by a passion for research and believe technology and innovation can bring positive change. Please reach out to collaborate!
     design:
       columns: '1'
   - block: collection
