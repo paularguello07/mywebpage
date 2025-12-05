@@ -32,14 +32,6 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        I am a first-year PhD student in Computer Science at the University of Southern California. My research focuses on computational imaging, privacy-preserving techniques, medical imaging, and deep learning. I am driven by a passion for research and believe technology and innovation can bring positive change. Please reach out to collaborate!
-    design:
-      columns: '1'
   - block: collection
     id: papers
     content:

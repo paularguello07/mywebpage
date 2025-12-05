@@ -7,11 +7,11 @@ first_name: Paula Andrea
 last_name: Arguello Gutierrez
 
 # Pronouns (optional)
-pronouns: she/her
+pronouns: she/her 🇨🇴
 
 # Status emoji
 status:
-  icon: 🎓
+  icon: 👩🏽‍💻
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Student in Computer Science at University of Southern California
+role: PhD Student in Computer Science
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -30,7 +30,7 @@ organizations:
 # Social network links
 profiles:
   - icon: at-symbol
-    url: 'mailto:paula2191444@correo.uis.edu.co'
+    url: 'mailto:parguell@usc.edu'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/paularguello07
@@ -40,8 +40,6 @@ profiles:
     url: https://scholar.google.com/citations?user=TTo5b-cAAAAJ&hl=es&oi=ao
   - icon: academicons/orcid
     url: https://orcid.org/0000-0001-8266-8802
-  - icon: brands/instagram
-    url: https://www.instagram.com/pau_argut/
 
 interests:
   - Artificial Intelligence
@@ -56,7 +54,7 @@ education:
     date_end: 2024-09-01
     summary: |
       Research group: High Dimensional Signal Processing (HDSP).
-  - area: PhD in Computer Science
+  - area: First-year PhD in Computer Science
     institution: University of Southern California
     icon: ""
     date_start: 2025-08-26
@@ -96,4 +94,4 @@ awards:
       Undergraduate thesis: "Lens Design for Enhancing Privacy in Image Captioning".
 ---
 
-I am a **first-year PhD student in Computer Science at the University of Southern California**, Los Angeles. My research focuses on computational imaging, privacy-preserving techniques, medical imaging, and deep learning. Driven by a profound passion for research, I believe that technology and innovation can bring about positive change. I am committed to contributing to the development of Colombia through my work.
+I’m a **first-year PhD student in Computer Science at the University of Southern California**, Los Angeles. Pumped about computational imaging, medical imaging, and deep learning. Before grad school I worked as a Junior Research Scientist at Ubicept (2024–2025) on SPAD-based imaging and deep learning for better reconstructions. I earned my BS in Systems Engineering from Universidad Industrial de Santander, where I was part of the HDSP research group.

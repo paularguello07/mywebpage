@@ -85,6 +85,3 @@ slides: ""
 
 ### Qualitative results
 ![screen reader text](/icip2022/Captions-1.png "Qualitative results on the COCO dataset test set. Under each privacy image, we show the caption obtained by each model, and under the original image, we show the ground truth caption. We compute the PSNR between the original and distorted images for each approach")
-
-### Video
-{{< youtube Ls3U-v9Md2U >}}
