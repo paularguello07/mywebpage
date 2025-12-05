@@ -7,4 +7,15 @@
 .dark .hb-notebook-cell--markdown {
   background-image: linear-gradient(140deg, #141118 0%, #1d1724 100%) !important;
 }
+
+/* Dark background gradient for sections that use hbx-bg-gradient */
+.dark .hbx-bg-gradient::before {
+  background-image: linear-gradient(180deg, #0f0c14 0%, #181220 60%, #1f1826 100%) !important;
+  opacity: 1 !important;
+}
+
+/* Dark body base to remove bluish tint */
+.dark body {
+  background-color: #0f0c14 !important;
+}
 </style>
