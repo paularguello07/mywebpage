@@ -94,4 +94,4 @@ awards:
       Undergraduate thesis: "Lens Design for Enhancing Privacy in Image Captioning".
 ---
 
-I’m a **first-year PhD student in Computer Science at the University of Southern California**, Los Angeles. Pumped about computational imaging, medical imaging, and deep learning. Before grad school I worked as a Junior Research Scientist at Ubicept (2024–2025) on SPAD-based imaging and deep learning for better reconstructions. I earned my BS in Systems Engineering from Universidad Industrial de Santander, where I was part of the HDSP research group.
+I’m a **first-year PhD student in Computer Science at the University of Southern California**, Los Angeles. Pumped about computational imaging, medical imaging, and deep learning. Before grad school I worked as a Junior Research Scientist at Ubicept (2024–2025) on SPAD-based imaging. I earned my BS in Systems Engineering from Universidad Industrial de Santander, in Colombia, where I was part of the High Dimensional Signal Processing research group (HDSP).

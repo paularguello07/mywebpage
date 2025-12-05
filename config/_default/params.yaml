@@ -46,8 +46,8 @@ hugoblox:
       secondary: "#fce4ec"
       neutral: "#2b1c33"
     colors_dark:
-      primary: "#ff8fcf"                # Pink-forward primary
-      secondary: "#f5a9d7"              # Blush accent (no blue)
+      primary: "#d16ba5"                # Pink-forward primary
+      secondary: "#f8cdda"              # Blush accent (no blue)
       neutral: "#f6e9f7"                # Light text on dark
     # Optional: Semantic surface color overrides
     surfaces:
