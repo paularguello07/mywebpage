@@ -1,0 +1,38 @@
+<style>
+:root {
+  --hb-dark-bg: #131019;
+  --hb-dark-surface: #1b1624;
+  --hb-dark-surface-2: #221c2c;
+  --hb-dark-text: #f6e9f7;
+}
+
+.dark body {
+  background-color: var(--hb-dark-bg);
+  color: var(--hb-dark-text);
+}
+
+.dark .header,
+.dark nav,
+.dark .navbar {
+  background-color: var(--hb-dark-surface);
+}
+
+:where(.dark) .bg-gray-950,
+:where(.dark) .bg-gray-900,
+:where(.dark) .bg-slate-900,
+:where(.dark) .bg-slate-800 {
+  background-color: var(--hb-dark-surface) !important;
+}
+
+:where(.dark) .bg-gray-800,
+:where(.dark) .bg-gray-700,
+:where(.dark) .bg-slate-700,
+:where(.dark) .bg-slate-600 {
+  background-color: var(--hb-dark-surface-2) !important;
+}
+
+.dark .prose-invert,
+.dark .prose-invert p {
+  color: var(--hb-dark-text);
+}
+</style>
