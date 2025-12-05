@@ -46,9 +46,9 @@ hugoblox:
       secondary: "#fce4ec"
       neutral: "#2b1c33"
     colors_dark:
-      primary: "#ff79c6"                # Pink-forward Dracula-inspired primary
-      secondary: "#bd93f9"              # Lavender accent
-      neutral: "#f8f8f2"                # Light text on dark
+      primary: "#ff8fcf"                # Pink-forward primary
+      secondary: "#f5a9d7"              # Blush accent (no blue)
+      neutral: "#f6e9f7"                # Light text on dark
     # Optional: Semantic surface color overrides
     surfaces:
       background: ""
