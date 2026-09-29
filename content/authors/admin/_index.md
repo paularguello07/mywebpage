@@ -54,12 +54,12 @@ education:
     date_end: 2024-09-01
     summary: |
       Research group: High Dimensional Signal Processing (HDSP).
-  - area: First-year PhD in Computer Science
+  - area: PhD in Computer Science
     institution: University of Southern California
     icon: ""
     date_start: 2025-08-26
     summary: |
-      First-year PhD student focusing on computational imaging, privacy-preserving methods, medical imaging, and deep learning.
+      Second-year PhD student focusing on computational imaging, privacy-preserving methods, medical imaging, and deep learning.
 
 work:
   - position: Junior Research Scientist
@@ -94,4 +94,4 @@ awards:
       Undergraduate thesis: "Lens Design for Enhancing Privacy in Image Captioning".
 ---
 
-I’m a **first-year PhD student in Computer Science at the University of Southern California**, Los Angeles. Pumped about computational imaging, medical imaging, and deep learning. Before grad school I worked as a Junior Research Scientist at Ubicept (2024–2025) on SPAD-based imaging. I earned my BS in Systems Engineering from Universidad Industrial de Santander, in Colombia, where I was part of the High Dimensional Signal Processing research group (HDSP).
+I’m a **second-year PhD student in Computer Science at the University of Southern California** in Los Angeles, advised by **Professor Mahdi Soltanolkotabi**. My research focuses on computational imaging, medical imaging, and deep learning, with an emphasis on building reliable learning-based imaging systems. Before beginning my PhD, I worked as a Junior Research Scientist at Ubicept (2024–2025) on SPAD-based imaging. I earned my BS in Systems Engineering from Universidad Industrial de Santander in Colombia, where I was a member of the High Dimensional Signal Processing (HDSP) research group.
