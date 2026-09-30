@@ -37,18 +37,18 @@ hugoblox:
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "#d16ba5"                # Pink gradient anchor
-      secondary: "#f8cdda"              # Soft blush accent
-      neutral: "#4a3b4f"                # Warm neutral for text/borders
+      primary: "#8574B5"                # Refined lilac
+      secondary: "#C9BCE3"              # Soft lavender
+      neutral: "#3B3546"                # Deep violet-gray
     # Optional: Mode-specific color overrides
     colors_light:
-      primary: "#d16ba5"
-      secondary: "#fce4ec"
-      neutral: "#2b1c33"
+      primary: "#7565A4"
+      secondary: "#E6DFF2"
+      neutral: "#312C3B"
     colors_dark:
-      primary: "#d16ba5"                # Pink-forward primary
-      secondary: "#f8cdda"              # Blush accent (no blue)
-      neutral: "#f6e9f7"                # Light text on dark
+      primary: "#B19DDD"
+      secondary: "#D8CEEC"
+      neutral: "#F0ECF7"
     # Optional: Semantic surface color overrides
     surfaces:
       background: ""
@@ -122,9 +122,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} {name}. All rights reserved."
     license:
-      type: cc                          # cc | all_rights | custom
+      type: all_rights                  # cc | all_rights | custom
       allow_derivatives: false
       share_alike: true
       allow_commercial: false

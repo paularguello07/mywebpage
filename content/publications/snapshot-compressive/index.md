@@ -25,7 +25,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In IEEE Colombian Conference on Applications of Computational Intelligence 
-publication_short: In IEEE ColCACI 2020
+publication_short: IEEE ColCACI
 
 abstract: This work introduces an imaging device that efficiently captures high-speed spectral videos along with a mathematical model that allows reconstructs them from far fewer measurements than those required by conventional scanning devices. This imaging architecture modulates and multiplexes the spectral-temporal information into a single compressed measurement by introducing a Dynamic Vision Sensor (SCAMP5) as a detector in a conventional compressive snapshot spectral image (CASSI) system. SCAMP5 sensor embeds processing and data storage capability into the pixels, which allows developed a high-speed temporal codification. The results of the numerical experiments through high-speed spectral videos shows reliable performance reconstructing spectral videos for a different amount of reconstructed frames. Comparing this proposal approach of snapshot spectral video with the conventional capture of spectral videos with multishot systems, our work arises very close results additionally our system outperforme the temporal spectral compression, more fully, the proposal approach captures a 8 times less samples obtaining a difference of 2.86 in SAM, 0.08 in SSIM, 2.9 in PSNR and 0.03 for RMSE. Therefore, the proposed architecture is an efficient and alternative high-speed spectral video acquisition system.
 
@@ -75,4 +75,3 @@ slides: ""
 
 
 ---
-

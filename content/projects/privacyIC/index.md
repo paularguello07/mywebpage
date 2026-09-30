@@ -28,8 +28,6 @@ authors:
 
 [📌 **Optics lens design for privacy-preserving scene captioning**: ]({{< relref "/publications/ICIP2022-privacy" >}})_Paula Arguello, Jhon Lopez, Carlos Hinojosa, Henry Arguello_**🏆BEST PAPER AWARD ICIP 2022🏆**
 
-[📌 **Learning to Describe Scenes via Privacy-aware Optical Lens**: ]({{< relref "/publications/LATINX2024cvpr-privacy" >}})_Paula Arguello, Jhon Lopez, Karen Sanchez, Carlos Hinojosa, Hoover Rueda-Chacón, Henry Arguello_ **LatinX at CVPR 2024**
-
 [📌 **Learning to Describe Scenes via Privacy-aware Designed Optical Lens**: ]({{< relref "/publications/TCI-privacy" >}})_Paula Arguello, Jhon Lopez, Karen Sanchez, Carlos Hinojosa, Fernando Rojas-Morales, Henry Arguello_ **IEEE Transactions on Computational Imaging**
 
 

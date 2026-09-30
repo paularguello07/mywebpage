@@ -1,9 +1,9 @@
 ---
-# To publish author profile pages, remove all the `_build` and `cascade` settings below.
-#_build:
-#  render: never
-#cascade:
-#  _build:
-#    render: never
-#    list: always
+# Author records are used only to display names; dedicated profile pages are disabled.
+build:
+  render: never
+cascade:
+  build:
+    render: never
+    list: always
 ---

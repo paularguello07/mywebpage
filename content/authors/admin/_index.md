@@ -9,10 +9,6 @@ last_name: Arguello Gutierrez
 # Pronouns (optional)
 pronouns: she/her 🇨🇴
 
-# Status emoji
-status:
-  icon: 👩🏽‍💻
-
 # Is this the primary user of the site?
 superuser: true
 
@@ -79,14 +75,14 @@ languages:
 
 awards:
   - title: BEST PAPER AWARD
-    url: https://paularguello.me/publication/icip2022-privacy/
+    url: /publications/icip2022-privacy/
     date: 2022-10-18
     awarder: ICIP 2022
     icon: hero/trophy
     summary: |
       "Optics Lens Design for Privacy-Preserving Scene Captioning"
   - title: Outstanding Thesis
-    url: https://paularguello.me/project/privacyic/
+    url: /projects/privacyic/
     date: 2024-07-19
     awarder: Universidad Industrial de Santander, Colombia
     icon: hero/academic-cap
@@ -94,4 +90,4 @@ awards:
       Undergraduate thesis: "Lens Design for Enhancing Privacy in Image Captioning".
 ---
 
-I’m a **second-year PhD student in Computer Science at the University of Southern California** in Los Angeles, advised by **Professor Mahdi Soltanolkotabi**. My research focuses on computational imaging, medical imaging, and deep learning, with an emphasis on building reliable learning-based imaging systems. Before beginning my PhD, I worked as a Junior Research Scientist at Ubicept (2024–2025) on SPAD-based imaging. I earned my BS in Systems Engineering from Universidad Industrial de Santander in Colombia, where I was a member of the High Dimensional Signal Processing (HDSP) research group.
+I’m a **second-year PhD student in Computer Science at the University of Southern California** in Los Angeles, advised by **Professor Mahdi Soltanolkotabi**. My research focuses on computational imaging, medical imaging, and deep learning, with an emphasis on building reliable learning-based imaging systems. Before beginning my PhD, I worked as a Junior Research Scientist at Ubicept (2024–2025) on SPAD-based imaging. I earned my BS in Systems Engineering from Universidad Industrial de Santander in Colombia, where I was a member of the High Dimensional Signal Processing (HDSP) research group. Outside of research, I enjoy fashion, unwinding with video games, and seeking out an excellent cup of coffee—I’m admittedly a bit of a coffee snob.

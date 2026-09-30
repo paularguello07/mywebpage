@@ -1,0 +1,59 @@
+{{ $item := .item }}
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+
+<article class="publication-row-card group overflow-hidden rounded-2xl border border-zinc-200/80 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg dark:border-white/10 dark:bg-zinc-900/80">
+  <div class="flex flex-col md:flex-row">
+    <a href="{{ $item.RelPermalink }}" class="publication-media relative aspect-[16/9] w-full shrink-0 overflow-hidden bg-zinc-100 md:aspect-auto md:min-h-[240px] md:w-[30%] dark:bg-zinc-800" aria-label="Read {{ $item.Title | plainify }}">
+      {{ with $resource }}
+        {{ if ne .MediaType.SubType "gif" }}
+          {{ $image := .Fit "720x720" }}
+          <img
+            class="absolute inset-0 h-full w-full object-contain p-3 transition-transform duration-300 group-hover:scale-[1.03]"
+            src="{{ $image.RelPermalink }}"
+            width="{{ $image.Width }}"
+            height="{{ $image.Height }}"
+            loading="lazy"
+            decoding="async"
+            alt="{{ $item.Title | plainify }} featured image">
+        {{ else }}
+          <img
+            class="absolute inset-0 h-full w-full object-contain p-3"
+            src="{{ .RelPermalink }}"
+            width="{{ .Width }}"
+            height="{{ .Height }}"
+            loading="lazy"
+            decoding="async"
+            alt="{{ $item.Title | plainify }} featured image">
+        {{ end }}
+      {{ else }}
+        <div class="flex h-full w-full items-center justify-center bg-gradient-to-br from-primary-100 to-zinc-100 text-5xl text-primary-600 dark:from-primary-950 dark:to-zinc-900" aria-hidden="true">▧</div>
+      {{ end }}
+    </a>
+
+    <div class="flex w-full flex-col justify-center gap-3 p-6 md:w-[70%] md:p-8">
+      <div class="flex items-start gap-2">
+        {{ if $item.Params.featured }}
+          <span class="mt-1 text-xl text-amber-500" title="Featured publication" aria-label="Featured publication">★</span>
+        {{ end }}
+        <h3 class="text-xl font-bold leading-snug tracking-tight text-zinc-900 dark:text-zinc-100 md:text-2xl">
+          <a href="{{ $item.RelPermalink }}" class="transition-colors hover:text-primary-600 dark:hover:text-primary-400">{{ $item.Title }}</a>
+        </h3>
+      </div>
+
+      <div class="text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">
+        {{ partial "page_metadata_authors" $item }}
+      </div>
+
+      <div class="text-sm font-medium text-zinc-500 dark:text-zinc-400">
+        {{ with $item.Params.publication_short }}{{ . | markdownify }} · {{ end }}{{ $item.Date.Format "2006" }}
+      </div>
+
+      {{ if $has_attachments }}
+        <div class="flex flex-wrap gap-x-3 gap-y-2 pt-1">
+          {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</article>

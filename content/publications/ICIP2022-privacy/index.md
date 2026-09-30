@@ -28,7 +28,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: 2022 IEEE International Conference on Image Processing (ICIP)
-publication_short: In ICIP 2022
+publication_short: IEEE ICIP
 
 abstract: Image captioning is a challenging task that connects two major artificial intelligence fields, computer vision and natural language processing. Image captioning models use traditional images to generate a natural language description of the scene. However, the scene could contain private information that we want to hide but still generate the captions. Inspired by the trend of jointly designing optics and algorithms, this paper addresses the problem of privacy-preserving scene captioning. Our approach promotes privacy preservation, by hiding the faces in the images, during the acquisition process with a designed refractive camera lens while extracting useful features to perform image captioning. The refractive lens and an image captioning deep network architecture are optimized end-to-end to generate descriptions directly from the blurred images. Simulations show that our privacy-preserving approach degrades private visual attributes (e.g., face detection fails with our distorted images) while achieving comparable captioning performance with traditional non-private methods on the COCO dataset.
 

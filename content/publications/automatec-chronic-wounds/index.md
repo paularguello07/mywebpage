@@ -29,7 +29,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Elsevier: Computers in Biology and Medicine"
-publication_short: ""
+publication_short: "Computers in Biology and Medicine"
 
 abstract: Chronic wounds are a latent health problem worldwide, due to high incidence of diseases such as diabetes and Hansen. Typically, wound evolution is tracked by medical staff through visual inspection, which becomes problematic for patients in rural areas with poor transportation and medical infrastructure. Alternatively, the design of software platforms for medical imaging applications has been increasingly prioritized. This work presents a framework for chronic wound tracking based on deep learning, which works on RGB images captured with smartphones, avoiding bulky and complicated acquisition setups. The framework integrates mainstream algorithms for medical image processing, including wound detection, segmentation, as well as quantitative analysis of area and perimeter. Additionally, a new chronic wounds dataset from leprosy patients is provided to the scientific community. Conducted experiments demonstrate the validity and accuracy of the proposed framework, with up to 84.5% in precision.
 
